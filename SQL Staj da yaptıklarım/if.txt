@@ -1,0 +1,22 @@
+ALTER trigger [dbo].[SonHak]
+on [dbo].[Kitap]
+after delete 
+as
+begin
+declare @hak int
+select @hak = sayac from dbo.guncel
+if(@hak=0)
+begin
+RAISERROR('Hakkınız bitmiştir',16,1)  --16 Kullanıcı kaynaklı hatadır --1Bilgi mesajıdır gerçek olmayan hataları gösterir
+    ROLLBACK TRAN --işlemleri geri alma // iptal etme 
+    RETURN --geriye tek deger dondurur --returns geriye döndürülecek değerin veri tipini döndürür
+    end
+    else 
+    begin
+    print 'Kalan Hak : ' + str(@hak)
+    update guncel set sayac =-1
+        end
+        end
+
+Bu kod Örneğin günlük hayatımız da merkez de bulunan elektirikli scotterler için günlük 3 kullanım hakkımız var.
+Bu kullanım hakkı 0'a ulaştığı zaman diğer tabloda 0'a eit olduğu zaman bir daha kullanamıyoruz hakkınız bitmiştir tarzın da yazı ekrana geliyor

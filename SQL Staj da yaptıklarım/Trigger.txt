@@ -1,0 +1,50 @@
+ID uniqueidentifier DEFAULT (newsequentialid()),
+,
+
+
+
+
+create table Ogrencı(
+
+ID int not null primary key,
+KayıtKodu  uniqueidentifier DEFAULT (newsequentialid()),
+ÖgrAd varchar(50),
+ÖgrSoyAd varchar(50),
+Tc int
+
+)
+
+create table Sınav(
+
+ID int not null primary key,
+KayıtKodu  uniqueidentifier DEFAULT (newsequentialid()),
+ÖgrenciID uniqueidentifier 
+
+
+)
+
+
+go
+create function DenemeGel1(@gelendeger int)
+returns  uniqueidentifier
+as
+begin
+declare @gidendeger uniqueidentifier
+select @gidendeger = KayıtKodu from Ogrencı where ID = @gelendeger
+return  @gidendeger
+end
+
+--insert into Sınav (ÖgrenciID) values (dbo.DenemeGel1) dısardan gırmek ıstıyosan bu sekılde kullan
+
+
+create trigger KayıtEkle
+on Ogrencı
+after insert
+as
+begin
+declare @id int
+select @id = ID from inserted
+insert into Sınav (ÖgrenciID) values (dbo.DenemeGel1(@id))
+end
+
+Bu kod kayıt ekliyoruz eklediğimiz her kayıt için 2. tabloda ıd ile eşleştirip o tabloya kayıt kodunu kayıt koduyla id id ile eşleştirip hangi sınava girecek hangi notu aldı gibi bilgiler orada yer alıyor

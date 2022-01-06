@@ -1,0 +1,459 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+font-size: 8px;
+
+}
+.upparcase{
+    text-transform: uppercase;
+}
+
+.clearfix::after{
+    content: "";
+    clear: both;
+    display: block;
+}
+.clearfix::before{
+    content: "";
+    clear: both;
+    display: block;
+}
+.upparcase{
+    text-transform: uppercase;
+}
+
+body{
+    color: #fff;
+    font-size: 1.2rem;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style-type:none;
+}
+.fluit{
+    max-width: 100%;
+	height: auto;
+    object-fit: cover;
+    
+}
+
+/*Container Kısmı*/
+
+.sileders{
+    overflow: hidden;
+    width: auto;
+     height: 100vh;
+     display: flex;
+ }
+.sileders input{
+    display: none;
+}
+.slide img{
+    
+    
+}
+.slide{
+    width: 100%;
+    transition: 2s;
+}
+.navigation{
+    top: 88rem;
+    left: 90rem;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+}
+.manual-btn{
+    border: 2px solid #fff;
+    padding: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 1s;
+
+}
+.manual-btn:not(last-child){
+    margin-right: 40px;
+}
+
+.manual-btn:hover{
+background-color: gold;
+}
+
+#radio1:checked ~ .first{
+    margin-left: 0;
+}
+#radio2:checked ~ .first{
+    margin-left: -100%;
+}
+#radio3:checked ~ .first{
+    margin-left: -200%;
+}
+.container{
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    background-color: red;
+}
+
+.logo{
+    top: 110px;
+    position: absolute;
+    left: 191px;
+}
+.logo img{
+    opacity: 1;
+  
+}
+.logo img:hover{
+    opacity: 0.5;
+    cursor: pointer;
+}
+
+.content{
+    display: inline-block;
+    position: absolute;
+     left: 100rem;
+     margin-top: 60px;
+ }
+.element{
+    width: 75rem;
+}
+.social-link{
+    display: flex;
+}
+.HeaderNav{
+position: absolute;
+top: 8rem;
+}
+.Navbar{
+    position: absolute;
+   
+    height: 100%;
+    
+    justify-content: center;
+     
+}
+.HeaderNav ul{
+    display:flex;
+    width: 100%;
+}
+.HeaderNav li , a{
+    font-size: 2rem;
+  padding-right: 2rem;
+  color: #fff;
+    letter-spacing: 0.100rem;
+    word-spacing: 0.50rem;
+}
+.HeaderNav li:first-child a{
+    color: #FFC311;
+}
+.HeaderNav li a:hover{
+    color:#FFC311 ;
+}
+
+.social-link a{
+    color: #fff;
+    font-size: 1.8rem;
+    font-weight: 900;
+    margin-right: 3rem;
+}
+.social-link a:hover{
+    color: #FFC311;
+}
+
+.user-box{
+    position: absolute;
+    left: 46rem;
+    bottom: 0.6999999999999993rem;
+    font-size: 2rem;
+    font-family: 'Open Sans', sans-serif;
+}
+.user-box a{
+    color: #fff;
+    margin-right: 0.7rem;
+    text-decoration: none;
+    border-radius: 1.9230rem;
+    text-transform: uppercase;
+    max-width: 100px;
+    border-right: 2px solid #FFC311;
+    padding: 0 0.7692rem;
+
+}
+.user-box a:hover{
+    color: #FFC311;
+}
+
+/*içerik*/
+.faba{
+
+    position: relative;
+    top: -722px;
+    left: 591px;
+    width: 228px;
+    display: flex;
+
+}
+.faba ul li a{
+    color: #FFC311;
+}
+.faba p:hover{
+    color: #FFC311;
+}
+.fabb p:hover{
+    color: #FFC311;
+}
+.fabb ul li a{
+    color: #FFC311;
+}
+.fabb{
+    position: relative;
+    top: -740px;
+    left: 819px;
+    width: 228px;
+    display: flex;
+}
+.title-text{
+    position: relative;
+    top: -697px;
+    left: 535px;
+    font-family: 'Anton', sans-serif;
+    letter-spacing: 1rem;
+    word-spacing: 1rem;
+    margin-top: 0.1rem;
+    text-align: center;
+    color: #fff;
+    height: 70px;
+    width: 564px;
+    font-weight: 900;
+    font-size: 60px;
+}
+.lorem{
+    position: relative;
+    top: -640px;
+    left: 319px;
+    width: 1015px;
+    height: 52px;
+    font-size: 20px;
+}
+
+.buttons{
+    position: relative;
+    top: -550px;
+    left: 590px;
+}
+
+.buttons li{
+    display: inline-block;
+    margin-right: 10rem;
+    font-size: 35px;
+    border-bottom: 1px solid #FFF;
+}
+.buttons li:hover{
+      
+    border-bottom: 1px solid #FFC311;
+ }
+ .buttons li a{
+     color: #fff;
+     font-size: 30px;
+ }
+ .buttons li a:hover{
+    color: #FFC311;
+}
+.düzenle{
+    width: 791px;
+    height: 90px;
+    left: 380px;
+}
+
+.fabbb{
+    position: relative;
+    top: -871px;
+    left: 819px;
+    width: 228px;
+    display: flex;
+}
+.fabaa{
+
+    position: relative;
+    top: -855px;
+    left: 591px;
+    width: 228px;
+    display: flex;
+    
+}
+.title-textt{
+    position: relative;
+    top: -849px;
+    left: 500px;
+    font-family: 'Anton', sans-serif;
+    letter-spacing: 1rem;
+    word-spacing: 1rem;
+    margin-top: 0.1rem;
+    text-align: center;
+    color: #fff;
+    height: 70px;
+    width: 564px;
+    font-weight: 900;
+    font-size: 60px;
+}
+.loremm{
+    position: relative;
+    top: -760px;
+    left: 319px;
+    width: 1015px;
+    height: 52px;
+    font-size: 20px;
+}
+.buttonss{
+    position: relative;
+    top: -650px;
+    left: 590px;
+}
+
+.buttonss li{
+    display: inline-block;
+    margin-right: 10rem;
+    font-size: 35px;
+    border-bottom: 1px solid #FFF;
+}
+.buttonss li:hover{
+      
+    border-bottom: 1px solid #FFC311;
+ }
+ .buttonss li a{
+     color: #fff;
+     font-size: 30px;
+ }
+ .buttonss li a:hover{
+    color: #FFC311;
+}
+
+/*Card*/
+.section-a{
+    margin-top: 4rem;
+}
+
+.card-column{
+    margin-top: 5rem;
+    margin-left: 11rem;
+    width: 25%;
+    float: left;
+    height: 300px;
+    background: red;
+    background-position: center;
+    background-size: cover;
+    border: 1px solid black;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.card-head{
+    display: flex;
+    position: relative;
+    color: #FFC311;
+    font-size: 3rem;
+    padding: 1rem 1rem;
+    top: 2rem;
+    left: 2rem;
+}
+
+.card-title{
+    display: flex;
+    position: relative;
+    font-weight: 900;
+    font-size: 4rem;
+    top: 2rem;
+    left: 5rem;
+    font-family: 'Anton', sans-serif;
+    letter-spacing: 0.1rem;
+    word-spacing: 0.2;
+}
+.card-text{
+    display: flex;
+    position: relative;
+    justify-content: center;
+    font-family: 'Anton', sans-serif;
+    font-size: 1.4rem;
+    top: 6rem;
+    left: 2rem;
+
+}
+.card-btn a{
+    text-decoration: none;
+    color: white;
+    font-size: 35px;
+    position: relative;
+    border-bottom: 1px solid #fff;
+    top: 14rem;
+    left: 4.2rem;
+}
+.card-btn a:hover{
+    color: gold;
+    border-bottom: 1px solid gold;
+}
+
+/*Section-b*/
+
+.section-b{
+    margin-top: 55rem;
+}
+.btn-container{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    width: 100%;
+    
+}
+.btn-sec{
+    width: auto;
+    position: absolute;
+   
+}
+.btn-secc{
+    height: auto;
+    font-size: 3rem;
+    font-weight: 700;
+    background: #fff;
+    
+}
+.btn-secc li{
+    width: auto;
+    display: inline-block;
+    padding-right: 4rem;
+}
+
+.btn-secc a{
+    color:#FFC311;
+    
+}
+.btna{
+    color: #FFC311;
+    background: #fff;
+    border-color:#FFC311;
+    background-color:#FFC311;
+}
+::-webkit-scrollbar {
+    width: 20px;
+  }
+  
+  /* Burası Scrool Bar  */
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey; 
+    border-radius: 10px;
+  }
+   
+ 
+  ::-webkit-scrollbar-thumb {
+    background: gold; 
+    border-radius: 10px;
+  }
+  
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background: gold; 

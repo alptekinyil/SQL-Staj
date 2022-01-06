@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game & Blog</title>
+    <link rel="icon" href="favicon.ico/101286713-mobile-game-logo-icon-design.icon" type="icon" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+    <link rel="stylesheet" href="güncel.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Anton&family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+         <div class="logo">
+             <img src="/img/logo-2.png" alt="">
+         </div>
+         <div class="content">
+            <div class="element">
+                <ul class="social-link">
+                    <li><a href="#">
+                        <i class="fas fa-search"></i>
+                    </a>
+                    </li>
+                    <li><a href="#">
+                        <i class="fab fa-youtube"></i>
+                    </a>
+                    </li>
+                    <li><a href="#">
+                        <i class="fab fa-facebook-f"></i>
+                    </a>
+                    </li>
+                    <li><a href="#">
+                        <i class="fab fa-google-plus-g"></i>
+                    </a>
+                    </li>
+                    <li><a href="#">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                    </li>
+                    <li><a href="#">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                    </li>
+                    <li><a href="#">
+                        <i class="fab fa-twitch"></i>
+                    </a>
+                    </li>
+                </ul>
+                <div class="user-box clearfix" >
+                    <a class="logın" href="">Logın</a>
+                   <a class="sıngup" href="">Sıng Up</a>
+                </div>
+            </div>
+             <nav class="HeaderNav">
+                <div class="Navbar"></div>
+                <ul>
+                    <li><a href="">Home</a></li>
+                    <li><a href="">About</a></li>
+                    <li><a href="">Blog</a></li>
+                    <li><a href="">Games</a></li>
+                    <li><a href="">Community</a></li>
+                    <li><a href="">eSports</a></li>
+                    <li><a href="">Pages</a></li>
+                    <li><a href="">Contant</a></li>
+                </ul>
+             </nav>
+         </div>
+        
+            <div class="sileders">
+                <input type="radio" name="radio-1" id="radio1">
+                <input type="radio" name="radio-1" id="radio2">
+                <input type="radio" name="radio-1" id="radio3">
+            <div class="slide first">
+                <img src="/img/bg2.jpg" alt="">
+                <div class="faba">
+                    <ul>
+                        <li>
+                            <a href="#">
+                                <i class="fas fa-tv"></i>
+                            </a>
+                        </li>
+                    </ul>
+                    <a href="">
+                        <p class="OR">PlayStation4,</p>
+                    </a>
+                    <a href="">
+                        <p class="PS">Steam</p>
+                    </a>
+                </div>
+                <div class="fabb">
+                    <ul>
+                        <li>
+                            <a href="">
+                                <i class="fas fa-tags"></i>
+                            </a>
+                        </li>
+                    </ul>
+                    <a href="">
+                        <p>Actıon,</p>
+                    </a>
+                    <a href="">
+                        <p>Adventure</p>
+                    </a>
+                </div>
+                <h1 class="title-text upparcase">EGYPT AND WORLD</h1>
+                <p class="lorem upparcase">
+                    Lorem ipsum dolor sit amet consectetur adipisicing 
+                    elit. Doloribus repellat nobis temporibus corrupti 
+                    minus laudantium aspernatur, 
+                    sed provident obcaecati accusamus.
+                </p>
+                <div class="buttons">
+                    <ul>
+                        <li><a href="">Game Details</a></li>
+                        <li>
+                          <a href="">Buy Now</a></li>
+                      </ul>
+                </div>
+            </div>
+            <div class="slide">
+                <img src="/img/bg22.jpg" alt="">
+                <div class="faba">
+                    <ul>
+                        <li>
+                            <a href="#">
+                                <i class="fas fa-tv"></i>
+                            </a>
+                        </li>
+                    </ul>
+                    <a href="">
+                        <p class="OR">PlayStation4,</p>
+                    </a>
+                    <a href="">
+                        <p class="PS">Orıgın</p>
+                    </a>
+                </div>
+                <div class="fabb">
+                    <ul>
+                        <li>
+                            <a href="">
+                                <i class="fas fa-tags"></i>
+                            </a>
+                        </li>
+                    </ul>
+                    <a href="">
+                        <p>Sports</p>
+                    </a>
+                </div>
+                <h1 class="title-text düzenle upparcase">Glorrıa soccer 2022</h1>
+                 
+                <p class="lorem upparcase">
+                    Lorem ipsum dolor sit amet consectetur adipisicing 
+                    elit. Doloribus repellat nobis temporibus corrupti 
+                    minus laudantium aspernatur, 
+                    sed provident obcaecati accusamus.
+                </p>
+                <div class="buttons">
+                    <ul>
+                        <li><a href="">Game Details</a></li>
+                        <li>
+                          <a href="">Buy Now</a></li>
+                      </ul>
+                      
+                </div>
+            </div>
+            <div class="slide">
+                <img src="/img/game3.jpg" alt="">
+                <div class="fabaa">
+                    <ul>
+                        <li>
+                            <a href="#">
+                                <i class="fas fa-tv"></i>
+                            </a>
+                        </li>
+                    </ul>
+                    <a href="">
+                        <p class="OR">PlayStation4,</p>
+                    </a>
+                    <a href="">
+                        <p class="PS">Orıgın</p>
+                    </a>
+                </div>
+                <div class="fabbb">
+                    <ul>
+                        <li>
+                            <a href="">
+                                <i class="fas fa-tags"></i>
+                            </a>
+                        </li>
+                    </ul>
+                    <a href="">
+                        <p>Sports</p>
+                    </a>
+                </div>
+                <h1 class="title-textt  upparcase">ASSASINS</h1>
+                 
+                <p class="loremm upparcase">
+                    Lorem ipsum dolor sit amet consectetur adipisicing 
+                    elit. Doloribus repellat nobis temporibus corrupti 
+                    minus laudantium aspernatur, 
+                    sed provident obcaecati accusamus.
+                </p>
+                <div class="buttonss">
+                    <ul>
+                        <li><a href="">Game Details</a></li>
+                        <li>
+                          <a href="">Buy Now</a></li>
+                      </ul>
+                      
+                </div>
+            </div>
+            <div class="navigation">
+                <label for="radio1" class="manual-btn"></label>
+                <label for="radio2" class="manual-btn"></label>
+                <label for="radio3" class="manual-btn"></label>
+            </div>
+        </div>
+    </div>
+    <section class="section-a">
+        <div class="card-container">
+           <div class="card-column clearfix" style="background-image: url(https://demo.gloriathemes.com/wp/cloux/wp-content/uploads/2017/12/box-1-bg.jpg);">
+            <div class="card-head">
+                Our All Games
+            </div>
+            <div class="card-title">
+              CLOUX GAMES
+            </div>
+            <div class="card-text">
+              Lorem ipsum dolor sit am consectetuer adipiscing elit sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna.
+            </div>
+            <div class="card-btn">
+                <a href="#">
+                    All Games
+                </a>
+            </div>
+          </div>
+          <div class="card-column clearfix" style="background-image: url(https://demo.gloriathemes.com/wp/cloux/wp-content/uploads/2017/12/box-2-bg.jpg);">
+              <div class="card-head">
+                  Our All Games
+              </div>
+              <div class="card-title">
+                CLOUX GAMES
+              </div>
+              <div class="card-text">
+                Lorem ipsum dolor sit am consectetuer adipiscing elit sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna.
+              </div>
+              <div class="card-btn">
+                  <a href="#">
+                      Read More
+                  </a>
+              </div>
+            </div>
+            <div class="card-column clearfix" style="background-image: url(https://demo.gloriathemes.com/wp/cloux/wp-content/uploads/2017/12/box-3-bg.jpg);">
+              <div class="card-head">
+                  Our All Games
+              </div>
+              <div class="card-title">
+                CLOUX GAMES
+        
+              </div>
+              <div class="card-text">
+                Lorem ipsum dolor sit am consectetuer adipiscing elit sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna.
+              </div>
+              <div class="card-btn">
+                  <a href="#">
+                     Contact
+                  </a>
+              </div>
+            </div>
+        </div>
+      </section>
+      
+      <section class="section-b">
+          <div class="btn-container">
+          <div class="btn-sec">
+              <ul class="btn-secc">
+                  <button class="btna">
+                      <li>
+                          <a href="">
+                              ALL
+                          </a>
+                      </li>
+                      </button>
+                  
+              </ul>
+          </div>
+      </div>
+          </section>
+          
+        
+</body>
+</html>

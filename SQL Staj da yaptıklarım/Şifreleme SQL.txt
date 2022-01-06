@@ -1,0 +1,36 @@
+CREATE TABLE Personel(
+    ID int NOT NULL,
+    PersonelAd nvarchar(20) NOT NULL,
+    Sifre varbinary(150) NOT NULL
+) ON [PRIMARY]
+GO
+ 
+Insert into Personel values (1, 'Kullanıcı1', HASHBYTES('SHA2_512', 'Alptekin'))
+Insert into Personel values (2, 'Kullanıcı2', HASHBYTES('SHA2_512', 'Sıraç'))
+GO
+ 
+Select * from Personel
+GO
+ 
+CREATE or alter FUNCTION SifreKontrol
+	(
+		@v1 varchar(500)
+	)
+	RETURNS  varchar(7)
+	AS
+	BEGIN
+		DECLARE @result varchar(7)
+ 
+ 
+	Select
+		@sonuc  =( CASE when Sifre =  HASHBYTES('SHA2_512', @v1) THEN 'Valid'
+			ELSE 'Invalid'
+		END )
+		from Users_detail
+		where  [Password] =  HASHBYTES('SHA2_512', @v1) 
+ 
+	RETURN @result
+	END
+	GO
+		
+Bu kodu da staj da öğrendim Şifreleme için kullandığımız bir kod blogu
